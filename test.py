@@ -9,5 +9,8 @@ class TestMath(unittest.TestCase):
     def test_sub(self):
         self.assertEqual(mymath.sub(5,4), 1)
 
+    def test_mul(self):
+        self.assertEqual(mymath.mul(5,4), 20)
+
 if __name__ == '__main__':
     unittest.main()
